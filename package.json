@@ -1,0 +1,26 @@
+{
+  "name": "containedcalamitychat-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeebinJwad/ContainedCalamityChat-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeebinJwad/ContainedCalamityChat-Bot/issues"
+  },
+  "homepage": "https://github.com/SeebinJwad/ContainedCalamityChat-Bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}
