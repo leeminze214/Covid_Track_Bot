@@ -80,10 +80,7 @@ client.on('message', msg => {
     preventions(msg)
     console.log("received preventions request")
   }
-  else if (refined.startsWith("funfact")){
-    funfact(msg)
-    console.log("received funfact request")
-  }
+
   else if (refined.startsWith("help")){
     help(msg)
     console.log("received help request")
@@ -182,10 +179,6 @@ function preventions(msg){
     {name:"For more prevention tips:", value:"[ Press here ](" + 'https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public' + ")"}
   );
   msg.reply(embed);
-};
-
-function funfact(msg){
-  msg.reply("TESING, here is a funfact")
 };
 
 function help(msg){
